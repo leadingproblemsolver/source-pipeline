@@ -1,0 +1,16 @@
+{
+  "source_type_policy": {
+    "primary":       {"role": "authoritative"},
+    "authoritative": {"role": "authoritative"},
+    "secondary":     {"role": "neutral"},
+    "blog":          {"role": "ineligible"},
+    "aggregator":    {"role": "ineligible"},
+    "competitor":    {"role": "competitor"}
+  },
+  "competitor_promo_keywords": [
+    "buy now", "discount", "sign up", "our product", "limited time", "free trial"
+  ],
+  "competitor_generic_keywords": [
+    "industry", "market", "sector", "trend"
+  ]
+}
